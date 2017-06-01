@@ -1,0 +1,51 @@
+/*
+-- For Headings
+font-family: 'Boogaloo', cursive;
+
+-- For Body Text
+font-family: 'Yanone Kaffeesatz', sans-serif;
+
+-- Body Text Option
+font-family: 'Open Sans Condensed', sans-serif;
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('/img/dojo_bg.jpg') fixed left no-repeat;
+}
+
+#wrapper {
+
+
+
+    min-height: 650px;
+
+}
+
+#ninja_bg {
+    padding:10px;
+    border: solid 10px #C5905C;
+    width: 840px;
+    margin: 0 auto;
+    background: rgba(255, 255, 240, 0.7);
+}
+
+.ninja {
+    background-color: red;
+    text-align: center;
+    border-radius: 88px ;
+    width:176px;
+    height:176px;
+    padding-top: 6px;
+    padding-right: 7px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.ninja img {
+    width:176px;
+}
